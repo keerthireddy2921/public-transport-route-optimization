@@ -1,0 +1,61 @@
+{
+  "stops": [
+    {"stop_id": "S1", "name": "Secunderabad Junction", "lat": 17.4399, "lon": 78.4983, "zone": "Secunderabad"},
+    {"stop_id": "S2", "name": "Paradise", "lat": 17.4206, "lon": 78.4737, "zone": "Secunderabad"},
+    {"stop_id": "S3", "name": "Lakdikapul", "lat": 17.4066, "lon": 78.4989, "zone": "Nampally"},
+    {"stop_id": "S4", "name": "MG Bus Station", "lat": 17.3966, "lon": 78.4798, "zone": "Koti"},
+    {"stop_id": "S5", "name": "Koti", "lat": 17.3877, "lon": 78.4822, "zone": "Koti"},
+    {"stop_id": "S6", "name": "Charminar", "lat": 17.3616, "lon": 78.4747, "zone": "Charminar"},
+    {"stop_id": "S7", "name": "Nampally", "lat": 17.3878, "lon": 78.4887, "zone": "Nampally"},
+    {"stop_id": "S8", "name": "Ameerpet", "lat": 17.4377, "lon": 78.4480, "zone": "Ameerpet"},
+    {"stop_id": "S9", "name": "Madhapur", "lat": 17.4474, "lon": 78.3915, "zone": "Madhapur"},
+    {"stop_id": "S10", "name": "Hitech City", "lat": 17.4487, "lon": 78.3916, "zone": "Madhapur"}
+  ],
+  "routes": [
+    {
+      "route_id": "R1",
+      "route_name": "Bus 5",
+      "mode": "bus",
+      "stops": [
+        "Secunderabad Junction",
+        "Paradise",
+        "MG Bus Station",
+        "Koti",
+        "Charminar"
+      ]
+    },
+    {
+      "route_id": "R2",
+      "route_name": "Bus 17",
+      "mode": "bus",
+      "stops": [
+        "Secunderabad Junction",
+        "Lakdikapul",
+        "Koti",
+        "Nampally"
+      ]
+    },
+    {
+      "route_id": "R3",
+      "route_name": "Bus 218",
+      "mode": "bus",
+      "stops": [
+        "Madhapur",
+        "Hitech City",
+        "Ameerpet",
+        "Paradise",
+        "Secunderabad Junction"
+      ]
+    },
+    {
+      "route_id": "R4",
+      "route_name": "Metro Blue",
+      "mode": "metro",
+      "stops": [
+        "Ameerpet",
+        "Madhapur",
+        "Hitech City"
+      ]
+    }
+  ]
+}
